@@ -61,3 +61,5 @@
  If you encounter any issues or have suggestions, please open an issue in this repository.
 
  CloudDb-2026-Strong99 RDS password
+ dbd93754d DB identifier
+ arn:aws:iam::218795109524:role/role1
