@@ -1,0 +1,81 @@
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Node / JS / TS
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# Build outputs
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Vite
+.vite/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# AWS / Pulumi secrets
+Pulumi.*.yaml
+!.Pulumi.dev.yaml
+!.Pulumi.yaml
+.pulumi/
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
+*.tar
+
+# =========================
+# Database / local data
+# =========================
+*.sqlite
+*.db
+postgres_data/
+
+# =========================
+# Testing / temp
+# =========================
+tmp/
+temp/
+.cache/
+
+# =========================
+# Terraform (just in case)
+# =========================
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# =========================
+# Misc
+# =========================
+*.bak
+*.backup
+*.old
