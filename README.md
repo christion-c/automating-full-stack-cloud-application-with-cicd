@@ -8,7 +8,7 @@ This project deploys a full-stack cloud-native application to AWS using:
 - Infrastructure as Code with Pulumi
 - CI/CD with GitHub Actions
 - Monitoring with CloudWatch
--small change
+
 ## Architecture
 Browser -> S3 static website -> Backend API on EC2 -> PostgreSQL on RDS
 
